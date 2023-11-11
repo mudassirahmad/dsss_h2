@@ -10,7 +10,7 @@ setup(
     install_requires=['setuptools==68.2.2'],
     entry_points={
         'console_scripts': [
-            'math-quiz = math_quiz.math_quiz:__main__',
+            'math-quiz = math_quiz.math_quiz:math_quiz',
         ],
     }
 
