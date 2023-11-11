@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(
     name='math-quiz',
@@ -6,11 +6,11 @@ setup(
     author='Mudassir Ahmed',
     author_email='mudassir.ahmed@fau.de',
     license='Appache',
-    packages=[],
+    packages=find_packages(),
     install_requires=['setuptools==68.2.2'],
     entry_points={
         'console_scripts': [
-            'math-quiz = math_quiz.math_quiz:__main__',
+            'math-quiz = math_quiz.module:__main__',
         ],
     }
 
