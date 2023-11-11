@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='math_quiz',
+    name='math-quiz',
     version='0.1.0',    
     author='Mudassir Ahmed',
     author_email='mudassir.ahmed@fau.de',
@@ -10,7 +10,7 @@ setup(
     install_requires=['setuptools==68.2.2'],
     entry_points={
         'console_scripts': [
-            'math_quiz = DSSS_H2.math_quiz.math_quiz:__main__',
+            'math-quiz = math_quiz.math_quiz:__main__',
         ],
     }
 
